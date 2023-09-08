@@ -1,0 +1,116 @@
+
+<ion-header [translucent]="true" >
+  <ion-toolbar>
+    <ion-icon (click)="logOut()" slot="end" name="log-out-outline"></ion-icon>
+    <div class="ion-page" id="main-content">
+      <!-- <ion-title>TeLlevamosApp</ion-title> -->
+      
+      <ion-title>
+        <ion-row>
+        <h1 id="teLlevo">TeLlevoApp</h1><ion-icon class="taxiIcon" name="car-sport-outline"></ion-icon>
+        </ion-row>
+      </ion-title>
+      
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true" class="animated-content">
+  
+    
+    <h1 id="msj" class="animated-fade-in" >Bienvenido, Claudio!</h1>
+    <div class="maps">
+      <ion-grid>
+        <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.04982829734!2d-70.61886772426142!3d-33.5000807
+        0005562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d00be4a5fa81%3A0xcd8eaf5b1d547f64!2sDuoc%20UC%3A%20Sede%20S
+        an%20Joaqu%C3%ADn!5e0!3m2!1ses!2scl!4v1693784611093!5m2!1ses!2scl" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      </div>
+      </ion-grid>
+    </div>
+
+
+
+    
+    <div class="opc1">
+      <ion-grid >
+        <ion-row>
+          <ion-col >
+            <button id="Disponible" (click)="play()"  expand="block" (click)="opDisponible()">Disponibilidad</button>
+          </ion-col>
+          <ion-col >
+            <button id="Solicitar" (click)="stop()"  expand="block" (click)="opSolicitar()">Solicitar</button>
+          </ion-col>
+        </ion-row>      
+      </ion-grid>
+    </div>
+  
+
+  
+  
+   
+    
+  
+
+
+    <ion-row class="lin52">
+      <ion-col class="lin53">
+        <h3 class="lin54"><span id="tellevoApp">TeLlevoApp</span> es una solución a los estudiantes del 
+          instituto <span id="duoc">Duoc</span><span id="uc">UC</span> que no poseen movilización</h3>
+          <h5 id="lin56">TeLlevoAPP capaz de ser utilizada en plataformas tanto como Android e iOS que permita que los alumnos se
+            organicen a través de la App para que puedan retornar a sus hogares utilizando vehículos de algunos alumnos que si tienen
+            movilización propia. </h5>
+      </ion-col>
+    </ion-row>
+
+    
+
+    
+
+   
+
+    
+    
+   
+
+  
+
+
+  
+  
+    
+    
+
+
+    <ion-footer >
+     <ion-toolbar class="footer" color="dark"> 
+        <ion-row >
+          <ion-col id="pintarFooter" size="12">
+            <h3>TeLlevoApp</h3>
+            <p>Tu solución de transporte confiable.</p>
+          </ion-col>
+
+          
+          
+          <ion-col id="pintarFooter" size="12">
+            <h3>Contacto</h3>
+            <p>Dirección: Duoc UC San Joaquin</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Email: info@tellevoapp.com</p>
+          </ion-col>
+        </ion-row>
+       </ion-toolbar> 
+    </ion-footer>
+  
+
+</ion-content>
+ 
+
+
+
+
+
